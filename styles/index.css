@@ -1,0 +1,111 @@
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-headline: #E1624F;
+    --text-tertiary: #696969;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+
+    /* font-size */
+    --h1: 3.6rem;
+    --h2: 3.2rem;
+    --h3: 2.8rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: var(--h3);
+}
+
+p, figcaption, li {
+    font-size: 1.6rem;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+li:first-child {
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+li:nth-child(2) {
+    color: var(--accent-pink);
+    font-weight: 600;
+}
+
+li:nth-child(3) {
+    color: var(--accent-orange);
+    font-weight: 600;
+}
+
+.main-container {
+    padding: 8.8rem 8.0rem;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: var(--accent-pink);
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 4.0rem;
+}
+
+.country-details {
+    margin-bottom: 7rem;
+}
+
+.city-details {
+    margin-bottom: 4.2rem;
+}
+
+.city-info {
+    margin-bottom: 4.8rem;
+    border-bottom: 1px solid var(--border-primary);
+    padding-bottom: 4rem;
+}
+
+.last-paragraph {
+    text-align: center;
+}
